@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="BlackBrush" Color="Black" />
+    <SolidColorBrush x:Key="WhiteBrush" Color="WhiteSmoke" />
+    <SolidColorBrush x:Key="ChartBrush" Color="#3aeb34" />
+    <SolidColorBrush x:Key="PopupBackgroundBrush" Color="#b4d6a9" />
+    <SolidColorBrush x:Key="PopupBorderBrush" Color="#bdcdf0" />
+    <SolidColorBrush x:Key="CanvasOpacityBrush" Color="#80FFFFFF" />
+    <SolidColorBrush x:Key="LineBrush" Color="#7238cf" />
+    <SolidColorBrush x:Key="EllipseBrush" Color="Red" />
+
+</ResourceDictionary>

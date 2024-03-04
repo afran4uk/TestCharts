@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="PopupTextBlock" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontWeight" Value="600" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="TextAlignment" Value="Center" />
+        <Setter Property="FontStyle" Value="Italic" />
+    </Style>
+
+    <Style x:Key="PopupValueTextBlock" TargetType="TextBlock" BasedOn="{StaticResource PopupTextBlock}">
+        <Setter Property="FontWeight" Value="400" />
+    </Style>
+</ResourceDictionary>
